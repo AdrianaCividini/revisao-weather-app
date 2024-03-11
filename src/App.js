@@ -1,10 +1,17 @@
+import React from "react";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>React App⭐️</p>
+        <h1>React App⭐️</h1>
+        <footer>
+          This project was coded by Adriana Cividini and is{" "}
+          <a href="https://github.com/AdrianaCividini/revisao-weather-app">
+            open-sourced in GitHub.
+          </a>
+        </footer>
       </header>
     </div>
   );
